@@ -6,6 +6,10 @@
 使用 YOLOv8n-Pose 提取人体检测框与17个骨骼关键点，融合**形态特征（宽高比）、运动特征（质心速度）、骨骼特征（关键点坐标）** 构建特征集，通过 SVM 训练二分类模型，完成跌倒/正常行为判别。
 项目不仅实现本地摄像头/视频实时检测，还完成了 **ROS2 节点化部署**，支持话题通信、状态发布与告警监听，适用于智能养老、室内人体监测等场景。
 
+## 数据集来源
+-训练数据集：https://www.kaggle.com/datasets/payutch/fall-video-dataset
+-补充数据集：https://zenodo.org/records/11216408?utm_source=chatgpt.com
+
 ## 技术栈
 - 深度学习框架：Ultralytics YOLOv8-Pose
 - 机器学习：SVM、StandardScaler (Scikit-learn)
