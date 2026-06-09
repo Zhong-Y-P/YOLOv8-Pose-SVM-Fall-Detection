@@ -7,6 +7,10 @@ We adopt YOLOv8n-Pose for human detection and pose keypoint extraction. Three ty
 
 The system supports local camera/video inference and ROS2 node deployment for robot system integration, which can be applied to elderly care and indoor safety monitoring.
 
+## Dataset Sources:
+- Training Dataset:[fall-video-dataset](https://www.kaggle.com/datasets/payutch/fall-video-dataset)
+- Supplementary Dataset:[zenodo 跌倒视频数据集](https://zenodo.org/records/11216408?utm_source=chatgpt.com)
+
 ## Tech Stack
 - YOLOv8-Pose: Human pose estimation
 - SVM (Scikit-learn): Binary classification
